@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1801GRV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Panel Overlay -->
+    <div id="panel-overlay"></div>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div id="hero-bg"></div>
+      <div id="hero-content">
+        <img
+          id="hero-logo"
+          src="assets/logo_1801.png"
+          alt="1801grv"
+          loading="lazy"
+        />
+        <p id="hero-title">1801GRV</p>
+        <p id="hero-subtitle">
+          Una campagna LARP ambientata nell'ucronia Europa victoriana steampunk
+          dove il progresso della scienza si scontra con le ombre
+          dell'inspiegabile. La storia non è come la conoscete!
+        </p>
+        <div id="hero-ornament"></div>
+        <div id="hero-buttons">
+          <a href="#about" class="nav-link">
+            <span>Il Mondo</span>
+          </a>
+          <a href="#links" class="nav-link">
+            <span>Regolamento</span>
+          </a>
+          <a href="#kingdoms" class="nav-link nav-link-bold">
+            <span>Il Gruppo</span>
+          </a>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="main-nav">
+      <a href="#hero" class="nav-logo">
+        <img
+          width="40"
+          src="assets/logo_1801.png"
+          alt="1801grv"
+          loading="lazy"
+          style="margin-right: 10px"
+        />
+        1801GRV</a
+      >
+      <div class="nav-links">
+        <a
+          target="_blank"
+          href="https://1801grv.arcanadomine.it/assets/pdf/Regolamento_v5_1801grv.pdf"
+          class="nav-link"
+          rel="noopener"
+        >
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+            />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="16" y1="13" x2="8" y2="13" />
+            <line x1="16" y1="17" x2="8" y2="17" />
+            <polyline points="10 9 9 9 8 9" />
+          </svg>
+          <span>Regolamento</span>
+        </a>
+        <a
+          target="_blank"
+          href="https://1801grv.arcanadomine.it/assets/pdf/Ambientazione_v5_1801grv.pdf"
+          class="nav-link todofard"
+          rel="noopener"
+        >
+          <svg viewBox="0 0 24 24">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+          </svg>
+          <span>Ambientazione</span>
+        </a>
+        <a
+          href="https://www.facebook.com/groups/1225087001738295"
+          class="nav-link social-fb todofard"
+          title="Facebook"
+          target="_blank"
+        >
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://www.instagram.com/1801grv/"
+          class="nav-link social-ig todofard"
+          title="Instagram"
+          rel="noopener"
+          target="_blank"
+        >
+          <svg viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+          </svg>
+        </a>
+        <a
+          href="https://chat.whatsapp.com/KaBlw2oesLs4KCJyhjaMzK"
+          class="nav-link social-wa todofard"
+          title="WhatsApp"
+          rel="noopener"
+          target="_blank"
+        >
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+            />
+          </svg>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Il Mondo di 1801grv</h2>
+        <p class="section-subtitle">
+          Un gioco di ruolo dal vivo ambientato in un mondo steampunk
+        </p>
+      </div>
+      <div class="about-card">
+        <img src="assets/misc1.png" alt="mondo di 1801grv" loading="lazy" />
+        <p class="about-description">
+          In un’Europa alternativa dove la scienza sfida l’ignoto, e ogni scelta
+          può cambiare la storia. 1801grv è una campagna di gioco di ruolo dal
+          vivo (LARP) ambientata in un mondo steampunk, dove interpreterai un
+          personaggio all’interno di una storia condivisa, tra scienza, misteri
+          e intrighi politici.
+          <br />
+          <br />
+          🎭 Vivi un personaggio
+          <br />
+          Crea il tuo background e interpreta il tuo ruolo durante eventi dal
+          vivo.
+          <br />
+          ⚙️ Un mondo steampunk<br />
+          Treni a vapore, zeppelin e tecnologia avanzata dominano l’Europa.
+          <br />
+          🕵️ Misteri da scoprire<br />
+          Sparizioni e fenomeni inspiegabili sfidano la logica scientifica.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== DIVIDER ===== -->
+    <div class="section-divider"><span class="divider-symbol">✦</span></div>
+
+    <section id="links" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Links ... coming soon</h2>
+        <p class="section-subtitle">
+          Da fare più tardi: Sistemare e aggiungere link utili come dashboard
+          ArcanaDomine e PDF regolament e social
+        </p>
+      </div>
+      <div class="links-card">
+        <a
+          href="https://rhymil.arcanadomine.it/dashboard.php"
+          class="nav-link"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>Dashboard</span>
+        </a>
+        <a
+          href="https://calendar.google.com/calendar/u/3?cid=YXJjYW5hZG9taW5lc3RhZmZAZ21haWwuY29t"
+          class="nav-link"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>Calendario Eventi</span>
+        </a>
+        <a
+          href="https://chat.whatsapp.com/KaBlw2oesLs4KCJyhjaMzK"
+          class="nav-link"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>Community Whatsapp</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== DIVIDER ===== -->
+    <div class="section-divider"><span class="divider-symbol">✦</span></div>
+
+    <!-- ===== KINGDOMS ===== -->
+    <section id="kingdoms" class="section">
+      <div class="section-header">
+        <h2 class="section-title">I Gruppo di Ricerca</h2>
+        <p class="section-subtitle">
+          Da tutta Europa, menti brillanti e anime coraggiose si sono radunate
+          per affrontare un mistero che nessuna scienza può spiegare.
+          <br />Scegli il tuo regno e plasma il destino del mondo, molte verità
+          sono ancora nascoste.
+        </p>
+      </div>
+
+      <div class="kingdoms-grid">
+        <!-- 1. ITALIA -->
+        <div
+          class="kingdom-card"
+          tabindex="0"
+          data-kingdom="italia"
+          onclick="openKingdomPanel('italia')"
+        >
+          <div class="card-flag-wrap">
+            <img
+              src="assets/flag_italia.png"
+              alt="Stemma del Regno d'Italia"
+              class="card-flag"
+              loading="lazy"
+            />
+            <div class="card-flag-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-kingdom-name">Regno d'Italia</h3>
+            <p class="card-motto">Fraternitas · Veritas · Valor</p>
+            <div class="card-cta">
+              Esplora il Regno <span class="cta-arrow">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. FRANCIA -->
+        <div
+          class="kingdom-card"
+          tabindex="0"
+          data-kingdom="francia"
+          onclick="openKingdomPanel('francia')"
+        >
+          <div class="card-flag-wrap">
+            <img
+              src="assets/flag_francia.png"
+              alt="Stemma del Regno di Francia"
+              class="card-flag"
+              loading="lazy"
+            />
+            <div class="card-flag-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-kingdom-name">Regno di Francia</h3>
+            <p class="card-motto">Foi · Transformation · Recherche</p>
+            <div class="card-cta">
+              Esplora il Regno <span class="cta-arrow">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. REGNO UNITO -->
+        <div
+          class="kingdom-card"
+          tabindex="0"
+          data-kingdom="uk"
+          onclick="openKingdomPanel('uk')"
+        >
+          <div class="card-flag-wrap">
+            <img
+              src="assets/flag_uk.png"
+              alt="Stemma del Regno Unito"
+              class="card-flag"
+              loading="lazy"
+            />
+            <div class="card-flag-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-kingdom-name">Regno Unito</h3>
+            <p class="card-motto">King and Country</p>
+            <div class="card-cta">
+              Esplora il Regno <span class="cta-arrow">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. PRUSSIA -->
+        <div
+          class="kingdom-card"
+          tabindex="0"
+          data-kingdom="prussia"
+          onclick="openKingdomPanel('prussia')"
+        >
+          <div class="card-flag-wrap">
+            <img
+              src="assets/flag_prussia.png"
+              alt="Stemma dell'Impero di Prussia"
+              class="card-flag"
+              loading="lazy"
+            />
+            <div class="card-flag-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-kingdom-name">Impero di Prussia</h3>
+            <p class="card-motto">Technik mit uns</p>
+            <div class="card-cta">
+              Esplora il Regno <span class="cta-arrow">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. RUSSIA -->
+        <div
+          class="kingdom-card"
+          tabindex="0"
+          data-kingdom="russia"
+          onclick="openKingdomPanel('russia')"
+        >
+          <div class="card-flag-wrap">
+            <img
+              src="assets/flag_russia.png"
+              alt="Stemma dell'Impero di Russia"
+              class="card-flag"
+              loading="lazy"
+            />
+            <div class="card-flag-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-kingdom-name">Impero di Russia</h3>
+            <p class="card-motto">Честь · Настойчивость · Дух</p>
+            <div class="card-cta">
+              Esplora il Regno <span class="cta-arrow">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. SCANDINAVIA -->
+        <div
+          class="kingdom-card"
+          tabindex="0"
+          data-kingdom="scandinavia"
+          onclick="openKingdomPanel('scandinavia')"
+        >
+          <div class="card-flag-wrap">
+            <img
+              src="assets/flag_scandinavia.png"
+              alt="Stemma dell'Alleanza Scandinava"
+              class="card-flag"
+              loading="lazy"
+            />
+            <div class="card-flag-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-kingdom-name">Alleanza Scandinava</h3>
+            <p class="card-motto">Le Libere Città degli Jarl</p>
+            <div class="card-cta">
+              Esplora il Regno <span class="cta-arrow">→</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KINGDOM PANEL ===== -->
+    <aside
+      id="kingdom-panel"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Dettaglio Regno"
+    >
+      <button
+        class="panel-close"
+        onclick="closeKingdomPanel()"
+        aria-label="Chiudi"
+      >
+        ✕
+      </button>
+      <div class="panel-flag-header">
+        <img id="panel-flag" src="" alt="" class="panel-flag-img" />
+        <div class="panel-flag-gradient"></div>
+        <div class="panel-title-block">
+          <h2 id="panel-name" class="panel-kingdom-name"></h2>
+          <p id="panel-motto" class="panel-motto"></p>
+        </div>
+      </div>
+      <div class="panel-body">
+        <div class="info-grid" id="panel-info-grid"></div>
+        <div>
+          <p id="panel-description" class="panel-description"></p>
+        </div>
+        <div>
+          <p class="panel-chars-title"></p>
+          <div class="chars-grid" id="panel-chars-grid"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ===== CHARACTER MODAL ===== -->
+    <div
+      id="char-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Dettaglio Personaggio"
+    >
+      <div id="char-modal-bg" onclick="closeCharModal()"></div>
+      <div class="modal-box">
+        <button
+          class="modal-close"
+          onclick="closeCharModal()"
+          aria-label="Chiudi"
+        >
+          ✕
+        </button>
+        <div class="modal-portrait-wrap">
+          <img id="modal-avatar" src="" alt="" class="modal-avatar" />
+          <div class="modal-portrait-gradient"></div>
+        </div>
+        <div class="modal-header">
+          <div class="modal-title-block">
+            <h3 id="modal-char-name" class="modal-char-name"></h3>
+            <p id="modal-char-role" class="modal-char-role"></p>
+            <div id="modal-badge-kingdom" class="modal-badge-kingdom"></div>
+            <div id="modal-badge-spec" class="modal-badge-spec"></div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="modal-quote">
+            <p id="modal-quote-text"></p>
+          </div>
+          <div>
+            <p id="modal-description" class="modal-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>© Arcana Domine · Tutti i diritti riservati</p>
+      <div style="flex: 1"></div>
+      <p>Campagna LARP · 1801GRV</p>
+    </footer>
+
+    <script>
+      // ===== DATA =====
+      const KINGDOMS = {
+        italia: {
+          name: "Regno d'Italia",
+          motto: "Fraternitas · Veritas · Valor",
+          flag: "assets/flag_italia.png",
+          info: {
+            "Forma di Governo": "Teocrazia",
+            Regnante: "Papa Pio VII",
+            Capitale: "Roma (600.000 ab.)",
+            Religione: "Cattolicesimo",
+          },
+          description:
+            "Il Regno d'Italia è un'entità politica unica in cui il potere temporale e quello religioso coincidono perfettamente nella figura del Pontefice. Il dominio della Chiesa si estende su tutta la penisola italica, incluse le tre grandi isole: Corsica, Sardegna e Sicilia. L'attuale regnante è Pio VII — al secolo Barnaba Chiaramonti — eletto nel marzo del 1800 dopo un conclave rimasto in stallo per ben tre mesi.",
+          fashion:
+            "La sobrietà è la chiave. Tessuti di alta qualità, tagli sartoriali puliti. Tonalità terrose: verde oliva, rosso mattone, blu profondi. Piccoli accessori meccanici curati: orologi da taschino, anelli, collane girocollo. La nobiltà ecclesiastica veste con estrema semplicità — solo simboli religiosi.",
+          characters: [
+            {
+              name: "prova1",
+              role: "Emanazione di Maria Antonietta",
+              class: "SuperMaster",
+              image: "assets/prova1.png",
+              quote: '"Fa la schiuma ma non è sapone"',
+              desc: "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione  descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione",
+            },
+            {
+              name: "prova2",
+              role: "titolo del personaggio",
+              class: "professione o ruolo",
+              image: "assets/prova2.png",
+              quote: '"citazione del suo pg"',
+              desc: "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione  descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione",
+            },
+            {
+              name: "prova3",
+              role: "titolo del personaggio",
+              class: "professione o ruolo",
+              image: "assets/prova3.png",
+              quote: '"citazione del suo pg"',
+              desc: "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione  descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione",
+            },
+            {
+              name: "prova4",
+              role: "titolo del personaggio",
+              class: "professione o ruolo",
+              image: "assets/prova4.png",
+              quote: '"citazione del suo pg"',
+              desc: "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione  descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione",
+            },
+            {
+              name: "prova5",
+              role: "titolo del personaggio",
+              class: "professione o ruolo",
+              image: "assets/prova5.png",
+              quote: '"citazione del suo pg"',
+              desc: "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione  descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione",
+            },
+            {
+              name: "prova6",
+              role: "titolo del personaggio",
+              class: "professione o ruolo",
+              image: "assets/prova6.png",
+              quote: '"citazione del suo pg"',
+              desc: "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione  descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione",
+            },
+          ],
+        },
+
+        francia: {
+          name: "Regno di Francia",
+          motto: "Foi · Transformation · Recherche",
+          flag: "assets/flag_francia.png",
+          info: {
+            "Forma di Governo": "Monarchia Assoluta",
+            Regnante: "Maria Antonietta I",
+            Capitale: "Parigi (800.000 ab.)",
+            Religione: "Cattolicesimo",
+          },
+          description:
+            'La Francia ha riconquistato un ruolo di primo piano in Europa sotto la reggenza illuminata di Maria Antonietta I. La Regina, rimasta a Palazzo dopo la morte del Re, diede inizio a un coraggioso percorso di riconciliazione. Vengono definiti "Il Regno dove non tramonta mai la Luna": tasse per la nobiltà, scuole pubbliche, borse di studio per merito. Parigi è oggi il faro delle arti e del mecenatismo d\'Europa.',
+          characters: [],
+        },
+
+        uk: {
+          name: "Regno Unito di Gran Bretagna e Irlanda",
+          motto: "King and Country",
+          flag: "assets/flag_uk.png",
+          info: {
+            "Forma di Governo": "Monarchia Costituzionale",
+            Regnante: "Re Giorgio III",
+            Capitale: "Londra (500.000 ab.)",
+            Religione: "Nessuna di Stato",
+          },
+          description:
+            "Nonostante la limitata estensione territoriale, il Regno rivaleggia con i colossi continentali grazie alle Tredici Colonie nel Nord America. È pioniere mondiale della tecnologia elettrica, oggi esportata in tutta Europa. Detiene l'esclusivo primato nella costruzione dei Sottomarini — vascelli invisibili i cui progetti sono gelosamente custoditi negli arsenali reali. Possiede la flotta navale più vasta e potente mai apparsa sugli oceani.",
+          characters: [],
+        },
+
+        prussia: {
+          name: "Impero di Prussia",
+          motto: "Technik mit uns",
+          flag: "assets/flag_prussia.png",
+          info: {
+            "Forma di Governo": "Monarchia Costituzionale",
+            Regnante: "Kaiser Guglielmo I",
+            Capitale: "Königsberg (650.000 ab.)",
+            Religione: "Nessuna di Stato",
+          },
+          description:
+            "L'Impero di Prussia è una vasta potenza nel cuore dell'Europa — quintessenza dello Steampunk. Il Kaiser Guglielmo, uomo di scienza, ha promosso una radicale riforma scolastica: obbligo formativo fino ai 10 anni, scuole gratuite, borse di studio per merito. Regna con pugno di ferro da trentaquattro anni, mantenendo una vigilanza costante contro le pressioni russe a est e ottomane a sud.",
+          characters: [],
+        },
+
+        russia: {
+          name: "Impero di Russia",
+          motto: "Честь · Настойчивость · Дух",
+          flag: "assets/flag_russia.png",
+          info: {
+            "Forma di Governo": "Monarchia Assoluta",
+            Regnante: "Zar Alexander & Zarina Fedora Romanov",
+            Capitale: "Mosca (400.000 ab.)",
+            Religione: "Ortodossia Cristiana",
+          },
+          description:
+            "Il Gigante Freddo, la Grande Madre: l'Impero degli Zar ha molti nomi. Territorialmente è il regno più vasto d'Europa. La tecnologia elettrica e i sistemi a vapore sono giunti con anni di ritardo, lasciando vasti territori in condizioni arcaiche. La religione Cristiano Ortodossa è il culto ufficiale dell'Impero. Il clero gode di un potere tale da oscurare spesso l'alta nobiltà, assumendosi il compito di far rispettare la legge.",
+          characters: [],
+        },
+
+        scandinavia: {
+          name: "Alleanza Scandinava",
+          motto: "Le Libere Città degli Jarl",
+          flag: "assets/flag_scandinavia.png",
+          info: {
+            "Forma di Governo": "Confederazione Libera",
+            Regnanti:
+              "Gli Jarl di Oslo, Tromsø, Malmö, Uppsala, Copenaghen, Helsinki",
+            Religione: "Pantheon Aesir & Vanir",
+          },
+          description:
+            "La Scandinavia è una vasta e gelida regione che si estende nel Nord Europa. Non è un regno unitario ma una confederazione di sei città dominanti. La società scandinava è una pura meritocrazia: l'estrazione sociale non ha valore. A Uppsala sorge il più importante Tempio dedicato ad Odino, sede del Gran Sacerdote che funge da mediatore tra gli Jarl. Lo Jarl viene scelto per voto popolare — ogni cittadino sopra i 16 anni partecipa.",
+          characters: [],
+        },
+      };
+
+      // ===== PANEL LOGIC =====
+      let currentKingdom = null;
+
+      function openKingdomPanel(id) {
+        const k = KINGDOMS[id];
+        if (!k) return;
+
+        // Update active card
+        document
+          .querySelectorAll(".kingdom-card")
+          .forEach((c) => c.classList.remove("active"));
+        document
+          .querySelector(`[data-kingdom="${id}"]`)
+          .classList.add("active");
+
+        // Populate panel
+        document.getElementById("panel-flag").src = k.flag;
+        document.getElementById("panel-flag").alt = k.name;
+        document.getElementById("panel-name").textContent = k.name;
+        document.getElementById("panel-motto").textContent = k.motto;
+
+        // Info grid
+        const grid = document.getElementById("panel-info-grid");
+        grid.innerHTML = Object.entries(k.info)
+          .map(
+            ([label, value]) =>
+              `<div class="info-cell"><p class="info-label">${label}</p><p class="info-value">${value}</p></div>`,
+          )
+          .join("");
+
+        document.getElementById("panel-description").textContent =
+          k.description;
+
+        // Characters
+        const charsGrid = document.getElementById("panel-chars-grid");
+        charsGrid.innerHTML = k.characters
+          .map(
+            (char, i) => `
+    <div class="char-card" onclick="openCharModal('${id}', ${i})" tabindex="0" onkeydown="if(event.key==='Enter')openCharModal('${id}',${i})">
+      <img src="${char.image}" alt="${char.name}" class="char-avatar" loading="lazy"/>
+      <div class="char-info">
+        <p class="char-name">${char.name}</p>
+        <p class="char-role">${char.role}</p>
+      </div>
+    </div>
+  `,
+          )
+          .join("");
+
+        // Open panel
+        currentKingdom = id;
+        document.getElementById("kingdom-panel").classList.add("open");
+        document.getElementById("panel-overlay").classList.add("active");
+        document.body.style.overflow = "hidden";
+
+        // Scroll panel to top
+        document.getElementById("kingdom-panel").scrollTop = 0;
+      }
+
+      function closeKingdomPanel() {
+        document.getElementById("kingdom-panel").classList.remove("open");
+        document.getElementById("panel-overlay").classList.remove("active");
+        document.body.style.overflow = "";
+        document
+          .querySelectorAll(".kingdom-card")
+          .forEach((c) => c.classList.remove("active"));
+        currentKingdom = null;
+      }
+
+      // ===== CHARACTER MODAL =====
+      function openCharModal(kingdomId, charIndex) {
+        const k = KINGDOMS[kingdomId];
+        const char = k.characters[charIndex];
+
+        document.getElementById("modal-avatar").src = char.image;
+        document.getElementById("modal-avatar").alt = char.name;
+        document.getElementById("modal-char-name").textContent = char.name;
+        document.getElementById("modal-char-role").textContent = char.role;
+        document.getElementById("modal-badge-kingdom").textContent = k.name;
+        document.getElementById("modal-badge-spec").innerHTML = char.class;
+        document.getElementById("modal-quote-text").textContent = char.quote;
+        document.getElementById("modal-description").textContent = char.desc;
+        document.getElementById("char-modal").classList.add("open");
+      }
+
+      function closeCharModal() {
+        document.getElementById("char-modal").classList.remove("open");
+      }
+
+      // ===== KEYBOARD SUPPORT =====
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          if (
+            document.getElementById("char-modal").classList.contains("open")
+          ) {
+            closeCharModal();
+          } else if (
+            document.getElementById("kingdom-panel").classList.contains("open")
+          ) {
+            closeKingdomPanel();
+          }
+        }
+      });
+
+      document
+        .getElementById("panel-overlay")
+        .addEventListener("click", closeKingdomPanel);
+
+      // Keyboard on cards
+      document.querySelectorAll(".kingdom-card").forEach((card) => {
+        card.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            openKingdomPanel(card.dataset.kingdom);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
