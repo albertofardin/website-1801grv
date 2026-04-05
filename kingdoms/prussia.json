@@ -1,0 +1,13 @@
+{
+  "name": "Impero di Prussia",
+  "motto": "Technik mit uns",
+  "flag": "assets/flag_prussia.png",
+  "info": {
+    "Forma di Governo": "Monarchia Costituzionale",
+    "Regnante": "Kaiser Guglielmo I",
+    "Capitale": "Königsberg (650.000 ab.)",
+    "Religione": "Nessuna di Stato"
+  },
+  "description": "L'Impero di Prussia è una vasta potenza nel cuore dell'Europa, quintessenza dello Steampunk. Il Kaiser Guglielmo, uomo di scienza, ha promosso una radicale riforma scolastica: obbligo formativo fino ai 10 anni, scuole gratuite, borse di studio per merito. Regna con pugno di ferro da trentaquattro anni, mantenendo una vigilanza costante contro le pressioni russe a est e ottomane a sud.",
+  "characters": []
+}

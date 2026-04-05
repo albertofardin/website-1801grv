@@ -1,0 +1,13 @@
+{
+  "name": "Regno di Francia",
+  "motto": "Foi · Transformation · Recherche",
+  "flag": "assets/flag_francia.png",
+  "info": {
+    "Forma di Governo": "Monarchia Assoluta",
+    "Regnante": "Maria Antonietta I",
+    "Capitale": "Parigi (800.000 ab.)",
+    "Religione": "Cattolicesimo"
+  },
+  "description": "La Francia ha riconquistato un ruolo di primo piano in Europa sotto la reggenza illuminata di Maria Antonietta I. La Regina, rimasta a Palazzo dopo la morte del Re, diede inizio a un coraggioso percorso di riconciliazione. Vengono definiti \"Il Regno dove non tramonta mai la Luna\": tasse per la nobiltà, scuole pubbliche, borse di studio per merito. Parigi è oggi il faro delle arti e del mecenatismo d'Europa.",
+  "characters": []
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Regno d'Italia",
+  "motto": "Fraternitas · Veritas · Valor",
+  "flag": "assets/flag_italia.png",
+  "info": {
+    "Forma di Governo": "Teocrazia",
+    "Regnante": "Papa Pio VII",
+    "Capitale": "Roma (600.000 ab.)",
+    "Religione": "Cattolicesimo"
+  },
+  "description": "Il Regno d'Italia è un'entità politica unica in cui il potere temporale e quello religioso coincidono perfettamente nella figura del Pontefice. Il dominio della Chiesa si estende su tutta la penisola italica, incluse le tre grandi isole: Corsica, Sardegna e Sicilia. L'attuale regnante è Pio VII, al secolo Barnaba Chiaramonti, eletto nel marzo del 1800 dopo un conclave rimasto in stallo per ben tre mesi.",
+  "fashion": "La sobrietà è la chiave. Tessuti di alta qualità, tagli sartoriali puliti. Tonalità terrose: verde oliva, rosso mattone, blu profondi. Piccoli accessori meccanici curati: orologi da taschino, anelli, collane girocollo. La nobiltà ecclesiastica veste con estrema semplicità, solo simboli religiosi.",
+  "characters": [
+    {
+      "name": "prova1",
+      "role": "Emanazione di Maria Antonietta",
+      "year": "17/07/1793",
+      "class": "SuperMaster",
+      "image": "assets/prova1.png",
+      "quote": "\"Fa la schiuma ma non è sapone\"",
+      "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
+    },
+    {
+      "name": "prova2",
+      "role": "titolo del personaggio",
+      "year": "17/01/1795",
+      "class": "professione o ruolo",
+      "image": "assets/prova2.png",
+      "quote": "\"citazione del suo pg\"",
+      "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
+    },
+    {
+      "name": "prova3",
+      "role": "titolo del personaggio",
+      "class": "professione o ruolo",
+      "image": "assets/prova3.png",
+      "quote": "\"citazione del suo pg\"",
+      "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
+    },
+    {
+      "name": "prova4",
+      "role": "titolo del personaggio",
+      "class": "professione o ruolo",
+      "image": "assets/prova4.png",
+      "quote": "\"citazione del suo pg\"",
+      "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
+    },
+    {
+      "name": "prova5",
+      "role": "titolo del personaggio",
+      "class": "professione o ruolo",
+      "image": "assets/prova5.png",
+      "quote": "\"citazione del suo pg\"",
+      "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
+    },
+    {
+      "name": "prova6",
+      "role": "titolo del personaggio",
+      "class": "professione o ruolo",
+      "image": "assets/prova6.png",
+      "quote": "\"citazione del suo pg\"",
+      "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
+    }
+  ]
+}
