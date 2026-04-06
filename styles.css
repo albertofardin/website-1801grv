@@ -205,14 +205,30 @@ body::before {
   display: flex;
   align-items: center;
   font-weight: bold;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+.nav-logo:hover {
+  color: var(--parchment-light);
+  filter: drop-shadow(0 0 8px rgba(212, 168, 67, 0.4));
 }
 
-.nav-links {
+.nav-arcanadomine {
+  height: 40px;
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: -4px;
+  width: 150px;
+  z-index: 10;
+  transition: all 0.3s ease;
+  padding: 7px 10px 10px;
+}
+.nav-arcanadomine:hover {
+  background: rgba(212, 168, 67, 0.25);
+  height: 40px;
+  border-radius: 5px;
 }
 
 .nav-link {
@@ -282,7 +298,7 @@ body::before {
 /* ===== SECTION HEADERS ===== */
 .section-header {
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 2rem;
   position: relative;
 }
 
@@ -300,7 +316,6 @@ body::before {
   font-size: clamp(1.8rem, 5vw, 3rem);
   color: var(--gold);
   text-shadow: 0 0 30px rgba(212, 168, 67, 0.2);
-  margin-bottom: 1rem;
 }
 .section-subtitle {
   font-family: "IM Fell English", serif;
@@ -375,15 +390,15 @@ body::before {
   position: relative;
   display: flex;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   text-align: left;
   gap: 1rem;
   justify-content: center;
 }
 .links-card .nav-link {
-  padding: 0.6rem 1.4rem;
+  padding: 0.6rem 1.4rem 0.4rem;
   font-size: 0.78rem;
-  flex-direction: column;
+  min-width: auto;
 }
 
 /* ===== KINGDOMS GRID ===== */
@@ -461,16 +476,6 @@ body::before {
 .kingdom-card.active .card-flag {
   transform: scale(1.05);
   filter: sepia(0) contrast(1.1) brightness(1.05);
-}
-
-.card-flag-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    transparent 40%,
-    rgba(15, 25, 25, 0.9) 100%
-  );
 }
 
 .card-body {
@@ -859,7 +864,7 @@ body::before {
 .modal-portrait-gradient {
   position: absolute;
   inset: 0;
-  background-color: rgba(10, 13, 13, 0.85);
+  background-color: rgba(10, 13, 13, 0.9);
 }
 
 .modal-header {
@@ -1017,10 +1022,6 @@ footer p {
   }
 }
 
-.todofard {
-  min-width: 0;
-}
-
 /* ===== RESPONSIVE ===== */
 @media (max-width: 600px) {
   #main-nav {
@@ -1066,8 +1067,5 @@ footer p {
   }
   footer p {
     font-size: 0.5rem;
-  }
-  .todofard {
-    display: none;
   }
 }

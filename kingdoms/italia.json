@@ -13,11 +13,11 @@
   "characters": [
     {
       "name": "prova1",
-      "role": "Emanazione di Maria Antonietta",
+      "role": "titolo del personaggio",
       "year": "17/07/1793",
-      "class": "SuperMaster",
-      "image": "assets/prova1.png",
-      "quote": "\"Fa la schiuma ma non è sapone\"",
+      "class": "professione o ruolo",
+      "image": "",
+      "quote": "\"citazione del suo pg\"",
       "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
     },
     {
@@ -33,7 +33,7 @@
       "name": "prova3",
       "role": "titolo del personaggio",
       "class": "professione o ruolo",
-      "image": "assets/prova3.png",
+      "image": "",
       "quote": "\"citazione del suo pg\"",
       "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
     },
@@ -41,7 +41,7 @@
       "name": "prova4",
       "role": "titolo del personaggio",
       "class": "professione o ruolo",
-      "image": "assets/prova4.png",
+      "image": "",
       "quote": "\"citazione del suo pg\"",
       "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
     },
@@ -49,15 +49,7 @@
       "name": "prova5",
       "role": "titolo del personaggio",
       "class": "professione o ruolo",
-      "image": "assets/prova5.png",
-      "quote": "\"citazione del suo pg\"",
-      "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
-    },
-    {
-      "name": "prova6",
-      "role": "titolo del personaggio",
-      "class": "professione o ruolo",
-      "image": "assets/prova6.png",
+      "image": "",
       "quote": "\"citazione del suo pg\"",
       "desc": "descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione descrione descrizione descrizione"
     }
