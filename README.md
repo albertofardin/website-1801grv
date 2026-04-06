@@ -1,5 +1,5 @@
 <p align="center">
-<img width="200" src="./assets/logo_1801grv.png">
+<img width="200" src="./assets/logo_1801.png">
 </p>
 
 ## ℹ️ website-1801grv
