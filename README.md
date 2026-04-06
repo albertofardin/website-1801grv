@@ -4,7 +4,7 @@
 
 ## ℹ️ website-1801grv
 
-**Live Demo:** https://albertofardin.github.io/website-1801grv/
+https://albertofardin.github.io/website-1801grv/
 
 Questo sito raccoglie le illustrazioni dei personaggi della campagna LARP , per avere sempre a portata di mano volti e nomi tra un evento e l’altro. Non è il sito ufficiale della campagna (che fornisce ambientazione e regolamento), ma serve da supporto visivo per i partecipanti.
 
