@@ -148,7 +148,7 @@ body::before {
   opacity: 0;
 }
 #hero-buttons .nav-link {
-  padding: 0.6rem 1.4rem;
+  padding: 0.6rem 1.4rem 0.4rem;
   font-size: 0.78rem;
   flex-direction: column;
 }
