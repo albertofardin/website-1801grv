@@ -75,10 +75,10 @@ function openKingdomPanel(id) {
       <div class="char-card add-character" onclick="window.open('https://forms.gle/UAoUfAJ2hMs9Fdb5A', '_blank')">
         <div class="add-content">
           <i class="fa-solid fa-plus"></i>
-          <p class="char-name">Modifica o aggiungi il tuo personaggio</p>
+          <p class="char-name">Modifica o aggiungi personaggio</p>
         </div>
       </div>
-      `;
+    `;
 
   currentKingdom = id;
   document.getElementById("kingdom-panel").classList.add("open");
@@ -148,7 +148,8 @@ function openCharModal(kingdomId, charIndex) {
     `${char.year}, ${calcolaEta(char.year)} anni`;
   document.getElementById("modal-badge-spec").innerHTML = char.class;
   document.getElementById("modal-quote-text").textContent = char.quote;
-  document.getElementById("modal-description").textContent = char.desc;
+  document.getElementById("modal-description").innerHTML =
+    char.desc.map((d) => `<p>${d}</p>`).join("") || "";
   document.getElementById("char-modal").classList.add("open");
 }
 

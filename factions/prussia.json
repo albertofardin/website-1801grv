@@ -9,5 +9,21 @@
     "Religione": "Nessuna di Stato"
   },
   "description": "Rigore, ingegno e disciplina definiscono l’Impero di Prussia, culla della tecnologia e dell’efficienza. Qui lo spirito steampunk trova la sua massima espressione: meccanica, industria e razionalità si fondono in una società che guarda al futuro con metodo e determinazione.",
-  "characters": []
+  "characters": [
+    {
+      "name": "Friedrich Vogeltreu",
+      "role": "L'Antiquario",
+      "year": "30/10/1760",
+      "class": "Lavoro d'Ufficio",
+      "staff": false,
+      "noble": false,
+      "image": "people/prussia_friedrichvogeltreu.png",
+      "quote": " \"Nulla ha soltanto un prezzo. Ogni cosa ha un passato.\"",
+      "desc": [
+        "Proprietario di una bottega dove oggetti dimenticati e storie perdute trovano nuova vita, Friedrich Vogeltreu è un antiquario dal passato discreto e dallo sguardo attento. Nel suo negozio passano cimeli di ogni genere, alcuni comuni, altri avvolti da un’aura meno rassicurante.",
+        "Schivo, meticoloso e poco incline alle domande, si muove con un bastone, ricordo di affari finiti male. Vive ai margini della società rispettabile, tra nobili riservati e clienti che preferiscono non lasciare tracce.",
+        "Quando giunge voce di una spedizione alla ricerca di ciò che è perduto, proibito o dimenticato, Friedrich coglie l’occasione. Non per gloria o ideali, ma per ciò che sa fare meglio: riconoscere il valore di ciò che il mondo ha scelto di ignorare, e, se necessario, riportarlo alla luce."
+      ]
+    }
+  ]
 }

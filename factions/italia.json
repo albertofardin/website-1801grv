@@ -9,15 +9,5 @@
     "Religione": "Cattolicesimo"
   },
   "description": "Cuore spirituale e commerciale d’Europa, il Regno d’Italia vive in equilibrio tra fede e progresso. Le sue città, ricche di arte e cultura, sono crocevia di popoli e merci provenienti da ogni angolo del Mediterraneo. Tra tradizione e apertura, è un regno in cui la conoscenza dialoga con la devozione e il mondo sembra incontrarsi.",
-  "characters": [
-    {
-      "name": "Nome Cognome",
-      "role": "titolo",
-      "year": "17/07/1793",
-      "class": "professione",
-      "image": "",
-      "quote": "\"citazione\"",
-      "desc": "descrizione"
-    }
-  ]
+  "characters": []
 }
