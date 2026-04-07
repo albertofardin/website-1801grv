@@ -1,7 +1,7 @@
 {
   "name": "Regno Unito di Gran Bretagna e Irlanda",
   "motto": "King and Country",
-  "flag": "assets/flag_uk.png",
+  "flag": "factions/britannia.png",
   "info": {
     "Forma di Governo": "Monarchia Costituzionale",
     "Regnante": "Re Giorgio III",

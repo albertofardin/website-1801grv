@@ -1,7 +1,7 @@
 {
   "name": "Impero di Prussia",
   "motto": "Technik mit uns",
-  "flag": "assets/flag_prussia.png",
+  "flag": "factions/prussia.png",
   "info": {
     "Forma di Governo": "Monarchia Costituzionale",
     "Regnante": "Kaiser Guglielmo I",

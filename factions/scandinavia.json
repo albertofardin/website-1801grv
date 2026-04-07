@@ -1,7 +1,7 @@
 {
   "name": "Alleanza Scandinava",
   "motto": "Le Libere Città degli Jarl",
-  "flag": "assets/flag_scandinavia.png",
+  "flag": "factions/scandinavia.png",
   "info": {
     "Forma di Governo": "Confederazione Libera",
     "Regnanti": "Gli Jarl di Oslo, Tromsø, Malmö, Uppsala, Copenaghen, Helsinki",

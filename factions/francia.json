@@ -1,7 +1,7 @@
 {
   "name": "Regno di Francia",
   "motto": "Foi · Transformation · Recherche",
-  "flag": "assets/flag_francia.png",
+  "flag": "factions/francia.png",
   "info": {
     "Forma di Governo": "Monarchia Assoluta",
     "Regnante": "Maria Antonietta I",

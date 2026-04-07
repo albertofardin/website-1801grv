@@ -1,7 +1,7 @@
 {
   "name": "Impero di Russia",
   "motto": "Честь · Настойчивость · Дух",
-  "flag": "assets/flag_russia.png",
+  "flag": "factions/russia.png",
   "info": {
     "Forma di Governo": "Monarchia Assoluta",
     "Regnante": "Zar Alexander & Zarina Fedora Romanov",

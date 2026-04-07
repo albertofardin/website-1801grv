@@ -15,7 +15,7 @@ async function loadKingdoms() {
   try {
     const responses = await Promise.all(
       KINGDOM_IDS.map(async (id) => {
-        const response = await fetch(`./kingdoms/${id}.json`);
+        const response = await fetch(`./factions/${id}.json`);
         if (!response.ok) {
           throw new Error(`Impossibile caricare ${id}.json`);
         }
@@ -61,7 +61,7 @@ function openKingdomPanel(id) {
     .map(
       (char, i) => `
         <div class="char-card" onclick="openCharModal('${id}', ${i})" tabindex="0" onkeydown="if(event.key==='Enter')openCharModal('${id}',${i})">
-          <img src="${char.image || "./assets/default_person.png"}" alt="${char.name}" class="char-avatar" loading="lazy"/>
+          <img src="${char.image || "./people/_default.png"}" alt="${char.name}" class="char-avatar" loading="lazy"/>
           <div class="char-info">
             <p class="char-name">${char.name}</p>
             <p class="char-role">${char.role}</p>
@@ -131,7 +131,7 @@ function openCharModal(kingdomId, charIndex) {
   document.getElementById("modal-flag").src = k.flag;
   document.getElementById("modal-flag").alt = k.name;
   document.getElementById("modal-avatar").src =
-    char.image || "./assets/default_person.png";
+    char.image || "./people/_default.png";
   document.getElementById("modal-avatar").alt = char.name;
   document.getElementById("modal-char-name").textContent = char.name;
   document.getElementById("modal-char-role").textContent = char.role;

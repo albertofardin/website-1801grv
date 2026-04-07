@@ -1,7 +1,7 @@
 {
   "name": "Confederazione Svizzera",
   "motto": "",
-  "flag": "assets/flag_svizzera.png",
+  "flag": "factions/svizzera.png",
   "info": {
     "Forma di Governo": "Confederazione",
     "Regnante": "3 Governatori",

@@ -26,7 +26,7 @@ Questo sito raccoglie le illustrazioni dei personaggi della campagna LARP , per 
 
 ## 📁 Gestione dei Regni tramite JSON
 
-La sezione Kingdoms è completamente data-driven: ogni regno è definito tramite un file JSON dedicato all’interno della cartella /kingdoms. Questo approccio permette di separare i dati dalla logica, rendendo il sistema più scalabile e facile da mantenere.
+La sezione dei regni è completamente data-driven: ogni regno è definito tramite un file JSON dedicato all’interno della cartella /factions. Questo approccio permette di separare i dati dalla logica, rendendo il sistema più scalabile e facile da mantenere.
 
 Ogni file rappresenta un singolo regno che contiene tutte le informazioni necessarie alla renderizzazione del pannello informativo con tutti i relativi personaggi.
 

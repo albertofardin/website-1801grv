@@ -970,21 +970,28 @@ body::before {
 }
 
 /* ===== FOOTER ===== */
+
 footer {
   display: flex;
   position: relative;
   z-index: 1;
-  text-align: center;
   padding: 1rem 2rem;
   border-top: 1px solid var(--border);
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
-
-footer p {
+footer a {
   font-family: "Special Elite", monospace;
+  text-decoration: none;
   font-size: 0.72rem;
-  color: var(--parchment);
-  letter-spacing: 0.15em;
   line-height: 2;
+  color: var(--border-active);
+}
+footer a:hover {
+  text-decoration: underline;
+  color: var(--parchment);
+  text-shadow: 0 0 8px rgba(212, 168, 67, 0.4);
 }
 
 /* ===== ANIMATIONS ===== */

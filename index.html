@@ -34,7 +34,7 @@
             <span>Il Mondo</span>
           </a>
           <a href="#links" class="nav-link">
-            <span>Regolamento</span>
+            <span>Link Utili</span>
           </a>
           <a href="#kingdoms" class="nav-link nav-link-bold">
             <span>Il Gruppo</span>
@@ -110,11 +110,8 @@
 
     <section id="links" class="section">
       <div class="section-header">
-        <h2 class="section-title">Links ... coming soon</h2>
-        <p class="section-subtitle">
-          Da fare più tardi: Sistemare e aggiungere link utili come dashboard
-          ArcanaDomine e PDF regolament e social
-        </p>
+        <h2 class="section-title">Links Utili</h2>
+        <p class="section-subtitle">blablabla</p>
       </div>
       <div class="links-card">
         <a
@@ -245,7 +242,7 @@
         >
           <div class="card-flag-wrap">
             <img
-              src="assets/flag_italia.png"
+              src="factions/italia.png"
               alt="Stemma del Regno d'Italia"
               class="card-flag"
               loading="lazy"
@@ -269,7 +266,7 @@
         >
           <div class="card-flag-wrap">
             <img
-              src="assets/flag_francia.png"
+              src="factions/francia.png"
               alt="Stemma del Regno di Francia"
               class="card-flag"
               loading="lazy"
@@ -293,7 +290,7 @@
         >
           <div class="card-flag-wrap">
             <img
-              src="assets/flag_britannia.png"
+              src="factions/britannia.png"
               alt="Stemma del Regno Unito"
               class="card-flag"
               loading="lazy"
@@ -308,31 +305,7 @@
           </div>
         </div>
 
-        <!-- 4. PRUSSIA -->
-        <div
-          class="kingdom-card"
-          tabindex="0"
-          data-kingdom="prussia"
-          onclick="openKingdomPanel('prussia')"
-        >
-          <div class="card-flag-wrap">
-            <img
-              src="assets/flag_prussia.png"
-              alt="Stemma dell'Impero di Prussia"
-              class="card-flag"
-              loading="lazy"
-            />
-          </div>
-          <div class="card-body">
-            <h3 class="card-kingdom-name">Impero di Prussia</h3>
-            <p class="card-motto">Technik mit uns</p>
-            <div class="card-cta">
-              Esplora il Regno <span class="cta-arrow">→</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 5. RUSSIA -->
+        <!-- 4. RUSSIA -->
         <div
           class="kingdom-card"
           tabindex="0"
@@ -341,7 +314,7 @@
         >
           <div class="card-flag-wrap">
             <img
-              src="assets/flag_russia.png"
+              src="factions/russia.png"
               alt="Stemma dell'Impero di Russia"
               class="card-flag"
               loading="lazy"
@@ -350,6 +323,30 @@
           <div class="card-body">
             <h3 class="card-kingdom-name">Impero di Russia</h3>
             <p class="card-motto">Честь · Настойчивость · Дух</p>
+            <div class="card-cta">
+              Esplora il Regno <span class="cta-arrow">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. PRUSSIA -->
+        <div
+          class="kingdom-card"
+          tabindex="0"
+          data-kingdom="prussia"
+          onclick="openKingdomPanel('prussia')"
+        >
+          <div class="card-flag-wrap">
+            <img
+              src="factions/prussia.png"
+              alt="Stemma dell'Impero di Prussia"
+              class="card-flag"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <h3 class="card-kingdom-name">Impero di Prussia</h3>
+            <p class="card-motto">Technik mit uns</p>
             <div class="card-cta">
               Esplora il Regno <span class="cta-arrow">→</span>
             </div>
@@ -365,7 +362,7 @@
         >
           <div class="card-flag-wrap">
             <img
-              src="assets/flag_scandinavia.png"
+              src="factions/scandinavia.png"
               alt="Stemma dell'Alleanza Scandinava"
               class="card-flag"
               loading="lazy"
@@ -379,29 +376,28 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- 7. SVIZZERA -->
-      <div
-        style="width: fit-content; margin: 1.5rem auto"
-        class="kingdom-card"
-        tabindex="0"
-        data-kingdom="svizzera"
-        onclick="openKingdomPanel('svizzera')"
-      >
-        <div class="card-flag-wrap">
-          <img
-            src="assets/flag_svizzera.png"
-            alt="Stemma della Confederazione Svizzera"
-            class="card-flag"
-            loading="lazy"
-          />
-        </div>
-        <div class="card-body">
-          <h3 class="card-kingdom-name">Confederazione Svizzera</h3>
-          <p class="card-motto"></p>
-          <div class="card-cta">
-            Esplora il Regno <span class="cta-arrow">→</span>
+        <!-- 7. SVIZZERA -->
+        <div
+          class="kingdom-card"
+          tabindex="0"
+          data-kingdom="svizzera"
+          onclick="openKingdomPanel('svizzera')"
+        >
+          <div class="card-flag-wrap">
+            <img
+              src="factions/svizzera.png"
+              alt="Stemma della Confederazione Svizzera"
+              class="card-flag"
+              loading="lazy"
+            />
+          </div>
+          <div class="card-body">
+            <h3 class="card-kingdom-name">Confederazione Svizzera</h3>
+            <p class="card-motto"></p>
+            <div class="card-cta">
+              Esplora il Regno <span class="cta-arrow">→</span>
+            </div>
           </div>
         </div>
       </div>
@@ -484,10 +480,22 @@
 
     <!-- ===== FOOTER ===== -->
     <footer>
-      <p>© Arcana Domine · Tutti i diritti riservati</p>
-      <div style="flex: 1"></div>
-      <p>Campagna LARP · 1801GRV</p>
+      <p>
+        <a href="https://www.arcanadomine.it">
+          © <span id="current-year"></span> Arcana Domine APS · Tutti i diritti
+          riservati
+        </a>
+      </p>
+      <p>
+        <a href="mailto:1801grv@gmail.com"> 1801grv@gmail.com</a>
+      </p>
     </footer>
   </body>
-  <script src="kingdoms.js"></script>
+  <script src="scripts.js"></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      const y = document.getElementById("current-year");
+      if (y) y.textContent = new Date().getFullYear();
+    });
+  </script>
 </html>
