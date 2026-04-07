@@ -1,12 +1,12 @@
 {
   "name": "Confederazione Svizzera",
   "motto": "",
-  "flag": "factions/svizzera.png",
+  "flag": "assets/flag_svizzera.png",
   "info": {
     "Forma di Governo": "Confederazione",
     "Regnante": "3 Governatori",
     "Religione": "Nessuna di Stato"
   },
-  "description": "Coming soon...",
+  "description": "Crocevia neutrale e cuore pulsante della cooperazione europea, la Confederazione Svizzera è terra di incontro, dialogo e conoscenza. Tra le sue città si intrecciano idee, discipline e visioni provenienti da ogni regno, dando vita a un ambiente unico dove scienza, diplomazia e ricerca trovano il loro equilibrio. È qui che nascono collaborazioni, si condividono scoperte e prendono forma le iniziative più ambiziose del continente.",
   "characters": []
 }

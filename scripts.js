@@ -57,9 +57,10 @@ function openKingdomPanel(id) {
     k.description || "";
 
   const charsGrid = document.getElementById("panel-chars-grid");
-  charsGrid.innerHTML = (k.characters || [])
-    .map(
-      (char, i) => `
+  charsGrid.innerHTML =
+    (k.characters || [])
+      .map(
+        (char, i) => `
         <div class="char-card" onclick="openCharModal('${id}', ${i})" tabindex="0" onkeydown="if(event.key==='Enter')openCharModal('${id}',${i})">
           <img src="${char.image || "./people/_default.png"}" alt="${char.name}" class="char-avatar" loading="lazy"/>
           <div class="char-info">
@@ -68,8 +69,16 @@ function openKingdomPanel(id) {
           </div>
         </div>
       `,
-    )
-    .join("");
+      )
+      .join("") +
+    `
+      <div class="char-card add-character" onclick="window.open('https://forms.gle/UAoUfAJ2hMs9Fdb5A', '_blank')">
+        <div class="add-content">
+          <i class="fa-solid fa-plus"></i>
+          <p class="char-name">Modifica o aggiungi il tuo personaggio</p>
+        </div>
+      </div>
+      `;
 
   currentKingdom = id;
   document.getElementById("kingdom-panel").classList.add("open");

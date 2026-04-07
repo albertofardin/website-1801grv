@@ -654,7 +654,7 @@ body::before {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 1.75rem;
+  gap: 1rem;
 }
 
 /* Info grid */
@@ -668,6 +668,9 @@ body::before {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(201, 169, 110, 0.1);
   padding: 0.7rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .info-label {
@@ -676,7 +679,8 @@ body::before {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: rgba(201, 169, 110, 0.4);
-  margin-bottom: 0.25rem;
+  line-height: 0.5rem;
+  padding-top: 3px;
 }
 
 .info-value {
@@ -688,9 +692,8 @@ body::before {
 
 .panel-description {
   font-family: "IM Fell English", serif;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: rgba(232, 213, 176, 0.8);
-  line-height: 1.8;
 }
 
 /* Characters section */
@@ -969,6 +972,25 @@ body::before {
   font-style: normal;
 }
 
+.add-character {
+  display: flex;
+  align-items: center;
+  border: 1px dashed var(--border);
+}
+.add-content {
+  text-align: center;
+  opacity: 0.8;
+  margin: 0 1rem;
+}
+.add-content i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.add-content p {
+  font-size: 0.6rem;
+}
+
 /* ===== FOOTER ===== */
 
 footer {
@@ -1046,9 +1068,6 @@ footer a:hover {
   #kingdom-panel {
     width: 100vw;
   }
-  .panel-body {
-    padding: 1.25rem;
-  }
   .chars-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.6rem;
@@ -1083,6 +1102,10 @@ footer a:hover {
   }
   .nav-arcanadomine {
     width: 120px;
+  }
+  .info-cell {
+    flex-direction: row;
+    align-items: center;
   }
   footer {
     flex-direction: column;

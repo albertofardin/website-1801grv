@@ -1,13 +1,13 @@
 {
   "name": "Regno Unito di Gran Bretagna e Irlanda",
   "motto": "King and Country",
-  "flag": "factions/britannia.png",
+  "flag": "assets/flag_britannia.png",
   "info": {
     "Forma di Governo": "Monarchia Costituzionale",
     "Regnante": "Re Giorgio III",
     "Capitale": "Londra (500.000 ab.)",
     "Religione": "Nessuna di Stato"
   },
-  "description": "Nonostante la limitata estensione territoriale, il Regno rivaleggia con i colossi continentali grazie alle Tredici Colonie nel Nord America. È pioniere mondiale della tecnologia elettrica, oggi esportata in tutta Europa. Detiene l'esclusivo primato nella costruzione dei Sottomarini, vascelli invisibili i cui progetti sono gelosamente custoditi negli arsenali reali. Possiede la flotta navale più vasta e potente mai apparsa sugli oceani.",
+  "description": "Tra nebbie industriali e raffinate tradizioni, il Regno Unito incarna l’equilibrio tra praticità ed eleganza. La rivoluzione tecnologica si intreccia con una società strutturata e disciplinata, dando vita a un mondo in cui progresso e rigore convivono in perfetta armonia.",
   "characters": []
 }

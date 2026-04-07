@@ -1,13 +1,13 @@
 {
   "name": "Impero di Russia",
   "motto": "Честь · Настойчивость · Дух",
-  "flag": "factions/russia.png",
+  "flag": "assets/flag_russia.png",
   "info": {
     "Forma di Governo": "Monarchia Assoluta",
     "Regnante": "Zar Alexander & Zarina Fedora Romanov",
     "Capitale": "Mosca (400.000 ab.)",
     "Religione": "Ortodossia Cristiana"
   },
-  "description": "Il Gigante Freddo, la Grande Madre: l'Impero degli Zar ha molti nomi. Territorialmente è il regno più vasto d'Europa. La tecnologia elettrica e i sistemi a vapore sono giunti con anni di ritardo, lasciando vasti territori in condizioni arcaiche. La religione Cristiano Ortodossa è il culto ufficiale dell'Impero. Il clero gode di un potere tale da oscurare spesso l'alta nobiltà, assumendosi il compito di far rispettare la legge.",
+  "description": "Vastità, resistenza e tradizione caratterizzano l’Impero di Russia, una terra in cui il gelo modella non solo il paesaggio, ma anche lo spirito dei suoi abitanti. Tra sfarzo e austerità, il potere si manifesta con forza, mentre antiche influenze culturali continuano a permeare ogni aspetto della vita.",
   "characters": []
 }

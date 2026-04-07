@@ -1,12 +1,12 @@
 {
   "name": "Alleanza Scandinava",
   "motto": "Le Libere Città degli Jarl",
-  "flag": "factions/scandinavia.png",
+  "flag": "assets/flag_scandinavia.png",
   "info": {
     "Forma di Governo": "Confederazione Libera",
     "Regnanti": "Gli Jarl di Oslo, Tromsø, Malmö, Uppsala, Copenaghen, Helsinki",
     "Religione": "Pantheon Aesir & Vanir"
   },
-  "description": "La Scandinavia è una vasta e gelida regione che si estende nel Nord Europa. Non è un regno unitario ma una confederazione di sei città dominanti. La società scandinava è una pura meritocrazia: l'estrazione sociale non ha valore. A Uppsala sorge il più importante Tempio dedicato ad Odino, sede del Gran Sacerdote che funge da mediatore tra gli Jarl. Lo Jarl viene scelto per voto popolare, ogni cittadino sopra i 16 anni partecipa.",
+  "description": "Forgiate tra gelo e mare, le Libere Città Scandinave uniscono un antico spirito vichingo a una crescente influenza tecnologica. Comunità indipendenti e resilienti, dove tradizione e innovazione convivono, dando vita a una cultura fatta di forza, ingegno e profondo legame con la natura.",
   "characters": []
 }
