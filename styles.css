@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=IM+Fell+English:ital@0;1&family=Special+Elite&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
 
 /* ===== RESET & BASE ===== */
 *,
@@ -227,15 +228,13 @@ body::before {
 }
 .nav-arcanadomine:hover {
   background: rgba(212, 168, 67, 0.25);
-  height: 40px;
   border-radius: 5px;
 }
 
 .nav-link {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.4rem 0.9rem;
+  gap: 0.6rem;
   border: 1px solid var(--border);
   color: var(--parchment);
   text-decoration: none;
@@ -247,6 +246,7 @@ body::before {
   background: transparent;
   cursor: pointer;
   min-width: 150px;
+  justify-content: center;
 }
 .nav-link-bold {
   color: var(--parchment-light);
@@ -260,11 +260,9 @@ body::before {
   box-shadow: 0 0 12px rgba(212, 168, 67, 0.2);
 }
 
-.nav-link svg {
-  width: 14px;
-  height: 14px;
-  fill: currentColor;
-  flex-shrink: 0;
+.nav-link i {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
 }
 
 .nav-link.social-fb {
@@ -394,11 +392,18 @@ body::before {
   text-align: left;
   gap: 1rem;
   justify-content: center;
+  flex-direction: row;
 }
 .links-card .nav-link {
   padding: 0.6rem 1.4rem 0.4rem;
-  font-size: 0.78rem;
+}
+.links-card .util {
+  min-width: 190px;
+}
+.links-card .social {
   min-width: auto;
+  padding: 0.6rem 0.88rem 0.4rem;
+  gap: 0.2rem;
 }
 
 /* ===== KINGDOMS GRID ===== */
@@ -1068,6 +1073,21 @@ footer a:hover {
     height: 180px;
     margin: 0 auto;
     object-position: bottom;
+  }
+  .links-card {
+    flex-direction: column;
+  }
+  .links-card.social {
+    flex-direction: row !important;
+  }
+  .links-card.social .social {
+    flex: 1;
+  }
+  .links-card.social .social span {
+    display: none;
+  }
+  .nav-arcanadomine {
+    width: 120px;
   }
   footer {
     flex-direction: column;
